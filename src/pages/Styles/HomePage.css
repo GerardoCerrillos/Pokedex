@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.homepage__body{
+  margin-top: 100px;
+}
+h1{
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+}
+p{
+  text-align: center;
+}
+.homepage__form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px; 
+}
+.homepage__input{
+  padding: none;
+  height: 40px;
+  width: 200px;
+  border: 1px solid red;
+  font-size: 30px;
+}
+button{
+  background: #D93F3F;
+  color: white;
+  height: 41px;
+  font-size: 20px;
+  border: 1px solid #D93F3F;
+  
+}

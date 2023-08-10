@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 9;
+}
+.pokedexpage__titulo{
+  text-align: center;
+  font-size: 25px;
+  
+}
+.container__3obj{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.pokedexpage__btn{
+  border: 1px solid green;
+  height: 30px;
+  width: 150px;
+}
+
+.pokedexpage__input{
+  border: solid 1px black;
+  font-size: 25px;
+}
