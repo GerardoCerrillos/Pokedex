@@ -1,0 +1,13 @@
+
+.pokeidpage__img{
+    
+    border: 8px black solid;
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0;
+}
+.pokeidpage__name{
+    margin-top: 5%;
+    align-items: center;
+    margin-bottom: 5%;
+}

@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import useFetch from '../hooks/useFetch'
+import './Styles/PokeIdPage.css'
 
 const PokeIdPage = () => {
   
@@ -14,9 +15,9 @@ const PokeIdPage = () => {
   },[id])
   
   return (
-    <article>
-      <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
-      <h2>{pokemon?.name}</h2>
+    <article className='pokeidpage__container'>
+      <img className='pokeidpage__img' src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
+      <h2 className='pokeidpage__name'>{pokemon?.name}</h2>
     </article>
   )
 }

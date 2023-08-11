@@ -6,7 +6,7 @@ import './Styles/PokeCard.css'
 const PokeCard = ({url}) => {
 
   const [pokemon, getSinglePokemon] = useFetch(url) 
-console.log(pokemon)
+
   useEffect(()=>{
     getSinglePokemon()
   },[])
